@@ -1,0 +1,292 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+    .ul {
+        font-size: 16px;
+            }
+}
+
+                                             /* Small devices (portrait tablets and large phones, 600px and up) */
+                                                          @media only screen and (min-width: 600px) {
+                                                               html {
+                                                                  font-size: 16px;
+                                                                 }  .ul {
+                                                                  font-size: 16px;
+                                                                    } }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    .ul {
+        font-size: 16px;
+            }
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .ul {
+        font-size: 16px;
+            }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .ul {
+        font-size: 16px;
+            }
+  }
+
+html {
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+head {
+    padding: 1px;
+    margin: 2px;
+}
+
+body {
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: whitesmoke;
+    width: 90%;
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 h2 h3 {
+    font-size: 3vw;
+}
+
+/*header- hero image*/
+
+.img-border {
+    border: 2px solid black;
+    border-radius: 5px;
+ }
+
+
+.header {
+    width: 100%;
+    min-width: 20%;
+    max-width: 100%;
+    margin: 10px;
+    padding : 10px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    scale: 25%;
+    transition: transform 1s;
+    transform-origin: left;
+
+}
+
+.header:hover {
+    transform: scale (1.25, 1.25);
+    transform-origin: left;
+}
+
+/*Start navigation section*/
+.main-menu {
+     flex: 20%;
+     max-width: 20%;
+}
+
+.main-nav a.hover{
+        padding-bottom: 5px;
+        width: 20%;
+}
+
+a {
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    background-color: whitesmoke
+    font-family:Verdana, Geneva, sans-serif;
+    border-radius: 5px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FF9C8C;
+    color: black;
+    font-display: bold;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    font-kerning: 16px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* End navigation section*/
+img {
+    padding: 0px;
+    ma
+    }
+
+main {
+    padding: 1 rem 1 rem 2 rem;
+    background-color: #FF9C8C;
+    display: flex;
+    flex: 80%;
+    flex-direction: row;
+    box-shadow: 5px 5px 5px;
+}
+
+p {
+    background-color: whitesmoke;
+    padding: 30px 20px 20px 50px;
+    font-size: 16px;
+}
+
+/*Contact page form*/
+
+#form-1 {
+    width: 65%;
+    padding: 12px;
+    border: 5px solid whitesmoke;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    background-color: whitesmoke;
+}
+
+text {
+    width: 100%;
+    height: 50px;
+    color: black;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 20px whitesmoke;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    resize: none;
+  }
+
+  .error-message{
+    color:#FFA500;
+    font-size: 12pt;
+}
+
+.error-border{
+    border-color: #FFA500 ;
+}
+
+#form-submit{
+    width: 15%;
+        margin: 15px;
+        background: whitesmoke;
+        color: black;
+        font-weight: 25pc;
+        border-radius: 15px;
+        font-size: 16pt;
+  }
+
+  #form-submit:hover{
+      cursor: pointer;
+      background: black;
+      color: white;
+  }
+
+
+ /*portfolio page edits */
+
+
+
+/* about me page*/
+
+.intro {
+    padding: 10px;
+}
+.about-intro p {
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+
+
+/*Contact me page - form, validation, and such*/
+
+input[type=submit]  {
+    background-color: #FF9C8C;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+  }
+
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+  }
+
+.button {
+  padding: 20px;
+  background-color: #FF9C8C;
+  transition: transform .1s;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+footer {
+    padding: 1rem;
+    background-color: whitesmoke;
+    width: 50%;
+    color: black;
+    align-self: flex-end;
+        box-shadow: -5px 5px 5px;
+        font-size: 2vw;
+}
+
+footer p {
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+
+footer img {
+    top: 0;
+    scale: 25%;
+    transition: transform 2s;
+    transform-origin: left;
+}
+
+footer img:hover {
+    transform: scale(1.25, 1.25);
+    transform-origin: left;
+}
+
+.linkedin {
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 10px 10px 10px 10px;
+    align-self: right;
+    font-size: 16px;
+}
